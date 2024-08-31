@@ -29,4 +29,37 @@ GPU hızlandırma kullanmak istiyorsanız, NVIDIA GPU'lu bir sistem gerekebilir.
 
 Bu projenin sonuçları oldukça başarılıdır. Test veri kümesi üzerindeki başarı oranı %97.3 olarak ölçülmüştür. Bu, Siamese ağlarının yüz doğrulama görevinde etkili olduğunu göstermektedir.
 
+"***"
+
+# Siamese Neural Network - Face Recognition
+
+This project addresses the face verification task using a Siamese network. It is implemented on the Labeled Faces in the Wild (LFW) dataset and is used to learn similarities between faces.
+
+## Dataset
+
+To run this project, you need the LFW dataset. You can download the dataset using the Kaggle API or manually using the following link:
+
+[https://www.kaggle.com/datasets/jessicali9530/lfw-dataset](https://www.kaggle.com/datasets/jessicali9530/lfw-dataset)
+
+## Requirements
+
+To run this project, you need the following requirements:
+- Python 3.x
+- TensorFlow or Keras
+- Jupyter Notebook or a Python IDE
+
+If you want to use GPU acceleration, you may need a system with an NVIDIA GPU. The project can be run on cloud-based services like Google Colab Pro or a local computer. Additionally, you can try reducing the model's complexity to use less GPU memory.
+
+## Running the Project
+
+1. After downloading the dataset, open the project in a Python development environment or Jupyter Notebook.
+
+2. Open the Jupyter Notebook file named "Face Recognition with Siamese Neural Network.ipynb" and start running the code. This file allows you to build, train, and test the Siamese network.
+
+3. Once the project runs, the training and test results will be displayed.
+
+## Results
+
+The results of this project are quite successful. The accuracy rate on the test dataset was measured at 97.3%, demonstrating that Siamese networks are effective for face verification tasks.
+
 
