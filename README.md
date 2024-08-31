@@ -1,4 +1,4 @@
-# SiameseNeuralNetwork-FaceRecognition
+# Siamese Neural Network-Face Recognition
 
 Bu proje, Siamese ağı kullanarak yüz doğrulama görevini ele almaktadır. Proje, Labeled Faces in the Wild (LFW) veri kümesi üzerinde gerçekleştirilmiştir ve yüzler arasındaki benzerlikleri öğrenmek için kullanılmıştır.
 
@@ -29,7 +29,7 @@ GPU hızlandırma kullanmak istiyorsanız, NVIDIA GPU'lu bir sistem gerekebilir.
 
 Bu projenin sonuçları oldukça başarılıdır. Test veri kümesi üzerindeki başarı oranı %97.3 olarak ölçülmüştür. Bu, Siamese ağlarının yüz doğrulama görevinde etkili olduğunu göstermektedir.
 
-"***"
+###
 
 # Siamese Neural Network - Face Recognition
 
